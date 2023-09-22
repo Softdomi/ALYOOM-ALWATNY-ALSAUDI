@@ -79,16 +79,16 @@ section{
 .audio button
 {
     position: fixed !important;
-    top: 45% !important;
+    top: 55% !important ;
     /* left: 5rem; */
     left: 4rem !important;
     z-index: 6666;
  
 }
 @media(max-width:992px){
-    .audio button{
-        top:65%;
-    }
+    /* .audio button{
+        top:50% !important;
+    } */
 }
 .audio button{
     background-color: transparent;
@@ -161,7 +161,10 @@ section{
     background-color: rgb(252, 244, 244);
 }
 
-
+.banner .logo{
+    position: relative;
+    right: 10rem;
+}
 .banner .banner-content span{
     color: var(--alt-color);
 }
@@ -172,6 +175,10 @@ section{
         background-position:  right ;
     
         /* height: 60vh; */
+    }
+    .banner .logo{
+        position: relative;
+        right: 3rem;
     }
  
 }
@@ -1090,7 +1097,7 @@ section{
 /* start footer section ---------------------- */
 
 footer{
-    font-family: 'Gulzar', serif;
+    /* font-family: 'Gulzar', serif; */
 }
 
 
@@ -1126,8 +1133,8 @@ footer ul{
 }
 footer ul li{
     font-family: 'Gulzar', serif;
-    font-size: 1.75rem;
-    font-weight: 500;
+    font-size: 2rem;
+    font-weight: 600;
     margin-top: 3rem;
     color: var(--text-color);
 }
@@ -1151,7 +1158,7 @@ footer .bg-img{
     }
     footer ul li{
    
-        font-size: 1.25rem;
+        font-size: 1.75rem;
        
     }
 }
